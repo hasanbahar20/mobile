@@ -2,7 +2,7 @@ import * as React from 'react';
 import {Image} from 'react-native';
 import {Banner} from 'react-native-paper';
 
-const Banner = () => {
+const BannerComponent = () => {
   const [visible, setVisible] = React.useState(true);
 
   return (
@@ -29,8 +29,9 @@ const Banner = () => {
           }}
         />
       )}
+      children={''}
     />
   );
 };
 
-export default MyComponent;
+export default BannerComponent;
