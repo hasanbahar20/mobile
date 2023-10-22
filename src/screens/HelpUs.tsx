@@ -34,36 +34,40 @@ import AnimatedGroup from '../components/FAB/Fab.Group';
 import BannerComponent from '../components/Banner/Banner';
 
 import {useTheme} from 'react-native-paper';
+import Loader from '../components/Loader';
 
 const HelpUs = () => {
   const theme = useTheme();
   return (
-    <View>
-      <ScrollView>
-        <View>
+    <View padding-8 margin-8>
+      <ScrollView showsVerticalScrollIndicator={false}>
+        <View paddingT-4>
           <Text text30 red20>
             Appbar Action
           </Text>
           <AppbarAction />
         </View>
-        <View>
+        <Separator />
+        <View paddingT-4>
           <Text text30 red20>
             Avatar Icon
           </Text>
           <AvatarIcon />
         </View>
-        <View>
+        <Separator />
+        <View paddingT-4>
           <Text text30 red20>
             Badge
           </Text>
           <Badge />
         </View>
-        <View>
+        <View paddingT-4>
           <Text text30 red20>
             <BannerComponent />
           </Text>
         </View>
-        <View>
+        <Separator />
+        <View paddingT-4>
           <Text text30 red20>
             Button
           </Text>
@@ -72,7 +76,8 @@ const HelpUs = () => {
           <ElevatedButton />
           <ContainedTonalButton />
         </View>
-        <View>
+        <Separator />
+        <View paddingT-4>
           <Text text30 red20>
             Card
           </Text>
@@ -81,21 +86,24 @@ const HelpUs = () => {
           <CardCover />
           <CardTitle />
         </View>
-        <View>
+        <Separator />
+        <View paddingT-4>
           <Text text30 red20>
             Checkbox
           </Text>
           <CheckBox />
           <CheckboxItem children="checked" />
         </View>
-        <View>
+        <Separator />
+        <View paddingT-4>
           <Text text30 red20>
             Chip
           </Text>
           <ChipFlat />
           <ChipOutlined />
         </View>
-        <View>
+        <Separator />
+        <View paddingT-4>
           <Text text30 red20>
             Datatable
           </Text>
@@ -106,7 +114,8 @@ const HelpUs = () => {
           <DatatableRow />
           <DatatableTitle />
         </View>
-        <View>
+        <Separator />
+        <View paddingT-4>
           <Text text30 red20>
             Dialog
           </Text>
@@ -115,13 +124,15 @@ const HelpUs = () => {
           <DialogIcon />
           <DialogScrollArea />
         </View>
-        <View>
+        <Separator />
+        <View paddingT-4>
           <Text text30 red20>
             Divider
           </Text>
           <Separator />
         </View>
-        <View>
+        <Separator />
+        <View paddingT-4>
           <Text text30 red20>
             Drawer
           </Text>
@@ -129,7 +140,15 @@ const HelpUs = () => {
           <DrawerItem />
           <DrawerSection />
         </View>
-        <View>
+        <Separator />
+        <View paddingT-4>
+          <Text text30 red20>
+            Drawer
+          </Text>
+          <Loader />
+        </View>
+        <Separator />
+        <View paddingT-4>
           <Text text30 red20>
             Animation
           </Text>
