@@ -1,5 +1,5 @@
 import {AppRegistry, useColorScheme} from 'react-native';
-import App from './App';
+import App from './src/App';
 import {name as appName} from './app.json';
 import {MD3LightTheme, MD3DarkTheme, PaperProvider} from 'react-native-paper';
 import {LightScheme} from './src/theme/lightScheme';

@@ -1,5 +1,6 @@
 import * as React from 'react';
-import {ScrollView, Text, View} from 'react-native';
+import {Text, View} from 'react-native-ui-lib';
+import {ScrollView} from 'react-native';
 import AppbarAction from '../components/Appbar.action';
 import AvatarIcon from '../components/Avatar/Avatar.Icon';
 import Badge from '../components/Badge/Badge';
@@ -31,6 +32,7 @@ import DrawerItem from '../components/Drawer/Drawer.Item';
 import DrawerSection from '../components/Drawer/Drawer.Section';
 import AnimatedGroup from '../components/FAB/Fab.Group';
 import BannerComponent from '../components/Banner/Banner';
+
 import {useTheme} from 'react-native-paper';
 
 const HelpUs = () => {
@@ -39,55 +41,30 @@ const HelpUs = () => {
     <View>
       <ScrollView>
         <View>
-          <Text
-            style={{
-              color: theme.colors.tertiary,
-              fontSize: 48,
-              textAlign: 'center',
-            }}>
+          <Text text30 red20>
             Appbar Action
           </Text>
           <AppbarAction />
         </View>
         <View>
-          <Text
-            style={{
-              color: theme.colors.tertiary,
-              fontSize: 48,
-              textAlign: 'center',
-            }}>
+          <Text text30 red20>
             Avatar Icon
           </Text>
           <AvatarIcon />
         </View>
         <View>
-          <Text
-            style={{
-              color: theme.colors.tertiary,
-              fontSize: 48,
-              textAlign: 'center',
-            }}>
+          <Text text30 red20>
             Badge
           </Text>
           <Badge />
         </View>
         <View>
-          <Text
-            style={{
-              color: theme.colors.tertiary,
-              fontSize: 48,
-              textAlign: 'center',
-            }}>
+          <Text text30 red20>
             <BannerComponent />
           </Text>
         </View>
         <View>
-          <Text
-            style={{
-              color: theme.colors.tertiary,
-              fontSize: 48,
-              textAlign: 'center',
-            }}>
+          <Text text30 red20>
             Button
           </Text>
           <TextButton />
@@ -96,12 +73,7 @@ const HelpUs = () => {
           <ContainedTonalButton />
         </View>
         <View>
-          <Text
-            style={{
-              color: theme.colors.tertiary,
-              fontSize: 48,
-              textAlign: 'center',
-            }}>
+          <Text text30 red20>
             Card
           </Text>
           <CardActions />
@@ -110,36 +82,21 @@ const HelpUs = () => {
           <CardTitle />
         </View>
         <View>
-          <Text
-            style={{
-              color: theme.colors.tertiary,
-              fontSize: 48,
-              textAlign: 'center',
-            }}>
+          <Text text30 red20>
             Checkbox
           </Text>
           <CheckBox />
           <CheckboxItem children="checked" />
         </View>
         <View>
-          <Text
-            style={{
-              color: theme.colors.tertiary,
-              fontSize: 48,
-              textAlign: 'center',
-            }}>
+          <Text text30 red20>
             Chip
           </Text>
           <ChipFlat />
           <ChipOutlined />
         </View>
         <View>
-          <Text
-            style={{
-              color: theme.colors.tertiary,
-              fontSize: 48,
-              textAlign: 'center',
-            }}>
+          <Text text30 red20>
             Datatable
           </Text>
           <DatatableHeader />
@@ -150,12 +107,7 @@ const HelpUs = () => {
           <DatatableTitle />
         </View>
         <View>
-          <Text
-            style={{
-              color: theme.colors.tertiary,
-              fontSize: 48,
-              textAlign: 'center',
-            }}>
+          <Text text30 red20>
             Dialog
           </Text>
           <DialogActions />
@@ -164,23 +116,13 @@ const HelpUs = () => {
           <DialogScrollArea />
         </View>
         <View>
-          <Text
-            style={{
-              color: theme.colors.tertiary,
-              fontSize: 48,
-              textAlign: 'center',
-            }}>
+          <Text text30 red20>
             Divider
           </Text>
           <Separator />
         </View>
         <View>
-          <Text
-            style={{
-              color: theme.colors.tertiary,
-              fontSize: 48,
-              textAlign: 'center',
-            }}>
+          <Text text30 red20>
             Drawer
           </Text>
           <DrawerCollapItem />
@@ -188,12 +130,7 @@ const HelpUs = () => {
           <DrawerSection />
         </View>
         <View>
-          <Text
-            style={{
-              color: theme.colors.tertiary,
-              fontSize: 48,
-              textAlign: 'center',
-            }}>
+          <Text text30 red20>
             Animation
           </Text>
           <AnimatedGroup />
